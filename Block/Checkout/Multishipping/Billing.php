@@ -94,7 +94,7 @@ class Billing extends \Magento\Multishipping\Block\Checkout\Billing
         \Sapient\Worldpay\Helper\Data $wpHelper,
         array $data = [],
         array $additionalChecks = [],
-        ?CheckoutHelper $checkoutHelper = null,
+        ?CheckoutHelper $checkoutHelper = null
     ) {
         $this->_multishipping = $multishipping;
         $this->_checkoutSession = $checkoutSession;
